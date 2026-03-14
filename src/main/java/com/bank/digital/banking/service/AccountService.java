@@ -4,7 +4,7 @@ import com.bank.digital.banking.entity.Account;
 import com.bank.digital.banking.entity.Transaction;
 import com.bank.digital.banking.repository.AccountRepository;
 import com.bank.digital.banking.repository.TransactionRepository;
-import jakarta.transaction.Transactional;
+import jakarta.transaction.Transactional; 
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
